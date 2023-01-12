@@ -1,0 +1,2811 @@
+@charset "UTF-8";
+/* Text meant only for screen readers. */
+/* ===== Start ICONS CSS ===== */
+@font-face {
+  font-family: "aro-icon";
+  src: url("./assets/fonts/icons/aro-icon-1.0.0.eot");
+  src: url("./assets/fonts/icons/aro-icon-1.0.0.eot?#iefix") format("eot"), url("./assets/fonts/icons/aro-icon-1.0.0.woff2") format("woff2"), url("./assets/fonts/icons/aro-icon-1.0.0.woff") format("woff"), url("./assets/fonts/icons/aro-icon-1.0.0.ttf") format("truetype"), url("./assets/fonts/icons/aro-icon-1.0.0.svg#aro-icon-1.0.0") format("svg");
+}
+[class*=aro-icon-] {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.aro-icon-account:before {
+  content: "";
+}
+
+.aro-icon-alarm:before {
+  content: "";
+}
+
+.aro-icon-amazing-value:before {
+  content: "";
+}
+
+.aro-icon-angle-down:before {
+  content: "";
+}
+
+.aro-icon-angle-left:before {
+  content: "";
+}
+
+.aro-icon-angle-right:before {
+  content: "";
+}
+
+.aro-icon-angle-up:before {
+  content: "";
+}
+
+.aro-icon-arrow-right1:before {
+  content: "";
+}
+
+.aro-icon-arrow_s:before {
+  content: "";
+}
+
+.aro-icon-boxed:before {
+  content: "";
+}
+
+.aro-icon-breadcrumb:before {
+  content: "";
+}
+
+.aro-icon-calendar-alt:before {
+  content: "";
+}
+
+.aro-icon-check-o:before {
+  content: "";
+}
+
+.aro-icon-check-square-solid:before {
+  content: "";
+}
+
+.aro-icon-clock:before {
+  content: "";
+}
+
+.aro-icon-close-circle-line:before {
+  content: "";
+}
+
+.aro-icon-coolicon:before {
+  content: "";
+}
+
+.aro-icon-cricle1:before {
+  content: "";
+}
+
+.aro-icon-day-delivery:before {
+  content: "";
+}
+
+.aro-icon-delivery:before {
+  content: "";
+}
+
+.aro-icon-diamond-icon:before {
+  content: "";
+}
+
+.aro-icon-directly:before {
+  content: "";
+}
+
+.aro-icon-expert:before {
+  content: "";
+}
+
+.aro-icon-facebook-o:before {
+  content: "";
+}
+
+.aro-icon-featured:before {
+  content: "";
+}
+
+.aro-icon-filter-ul:before {
+  content: "";
+}
+
+.aro-icon-filters:before {
+  content: "";
+}
+
+.aro-icon-flower:before {
+  content: "";
+}
+
+.aro-icon-gift--icon:before {
+  content: "";
+}
+
+.aro-icon-help-center:before {
+  content: "";
+}
+
+.aro-icon-home-1:before {
+  content: "";
+}
+
+.aro-icon-hurry:before {
+  content: "";
+}
+
+.aro-icon-increase:before {
+  content: "";
+}
+
+.aro-icon-instagram-o:before {
+  content: "";
+}
+
+.aro-icon-left-arrow:before {
+  content: "";
+}
+
+.aro-icon-linkedin-in:before {
+  content: "";
+}
+
+.aro-icon-list-ul:before {
+  content: "";
+}
+
+.aro-icon-long-arrow-down:before {
+  content: "";
+}
+
+.aro-icon-long-arrow-right:before {
+  content: "";
+}
+
+.aro-icon-long-arrow-up:before {
+  content: "";
+}
+
+.aro-icon-mail-send-line:before {
+  content: "";
+}
+
+.aro-icon-map-location-o:before {
+  content: "";
+}
+
+.aro-icon-map-location:before {
+  content: "";
+}
+
+.aro-icon-map-pin-line:before {
+  content: "";
+}
+
+.aro-icon-minus-o:before {
+  content: "";
+}
+
+.aro-icon-mobile-shopping:before {
+  content: "";
+}
+
+.aro-icon-money-check:before {
+  content: "";
+}
+
+.aro-icon-movies:before {
+  content: "";
+}
+
+.aro-icon-new:before {
+  content: "";
+}
+
+.aro-icon-play:before {
+  content: "";
+}
+
+.aro-icon-plus-o:before {
+  content: "";
+}
+
+.aro-icon-plus2:before {
+  content: "";
+}
+
+.aro-icon-quote-left:before {
+  content: "";
+}
+
+.aro-icon-quote2:before {
+  content: "";
+}
+
+.aro-icon-reply-line:before {
+  content: "";
+}
+
+.aro-icon-right-arrow-cicrle:before {
+  content: "";
+}
+
+.aro-icon-right-arrow:before {
+  content: "";
+}
+
+.aro-icon-ring:before {
+  content: "";
+}
+
+.aro-icon-search2:before {
+  content: "";
+}
+
+.aro-icon-send-back:before {
+  content: "";
+}
+
+.aro-icon-setting:before {
+  content: "";
+}
+
+.aro-icon-share-all:before {
+  content: "";
+}
+
+.aro-icon-shoppingcart-o:before {
+  content: "";
+}
+
+.aro-icon-sliders-v:before {
+  content: "";
+}
+
+.aro-icon-support:before {
+  content: "";
+}
+
+.aro-icon-th-large-o:before {
+  content: "";
+}
+
+.aro-icon-truck:before {
+  content: "";
+}
+
+.aro-icon-twitter-o:before {
+  content: "";
+}
+
+.aro-icon-user-o:before {
+  content: "";
+}
+
+.aro-icon-valuable:before {
+  content: "";
+}
+
+.aro-icon-visacard:before {
+  content: "";
+}
+
+.aro-icon-adobe:before {
+  content: "";
+}
+
+.aro-icon-amazon:before {
+  content: "";
+}
+
+.aro-icon-android:before {
+  content: "";
+}
+
+.aro-icon-angular:before {
+  content: "";
+}
+
+.aro-icon-apper:before {
+  content: "";
+}
+
+.aro-icon-apple:before {
+  content: "";
+}
+
+.aro-icon-atlassian:before {
+  content: "";
+}
+
+.aro-icon-behance:before {
+  content: "";
+}
+
+.aro-icon-bitbucket:before {
+  content: "";
+}
+
+.aro-icon-bitcoin:before {
+  content: "";
+}
+
+.aro-icon-bity:before {
+  content: "";
+}
+
+.aro-icon-bluetooth:before {
+  content: "";
+}
+
+.aro-icon-btc:before {
+  content: "";
+}
+
+.aro-icon-centos:before {
+  content: "";
+}
+
+.aro-icon-chrome:before {
+  content: "";
+}
+
+.aro-icon-codepen:before {
+  content: "";
+}
+
+.aro-icon-cpanel:before {
+  content: "";
+}
+
+.aro-icon-discord:before {
+  content: "";
+}
+
+.aro-icon-dochub:before {
+  content: "";
+}
+
+.aro-icon-docker:before {
+  content: "";
+}
+
+.aro-icon-dribbble:before {
+  content: "";
+}
+
+.aro-icon-dropbox:before {
+  content: "";
+}
+
+.aro-icon-drupal:before {
+  content: "";
+}
+
+.aro-icon-ebay:before {
+  content: "";
+}
+
+.aro-icon-facebook-f:before {
+  content: "";
+}
+
+.aro-icon-facebook:before {
+  content: "";
+}
+
+.aro-icon-figma:before {
+  content: "";
+}
+
+.aro-icon-firefox:before {
+  content: "";
+}
+
+.aro-icon-google-plus:before {
+  content: "";
+}
+
+.aro-icon-google:before {
+  content: "";
+}
+
+.aro-icon-grunt:before {
+  content: "";
+}
+
+.aro-icon-gulp:before {
+  content: "";
+}
+
+.aro-icon-html5:before {
+  content: "";
+}
+
+.aro-icon-joomla:before {
+  content: "";
+}
+
+.aro-icon-link-brand:before {
+  content: "";
+}
+
+.aro-icon-linkedin:before {
+  content: "";
+}
+
+.aro-icon-mailchimp:before {
+  content: "";
+}
+
+.aro-icon-opencart:before {
+  content: "";
+}
+
+.aro-icon-paypal:before {
+  content: "";
+}
+
+.aro-icon-pinterest-p:before {
+  content: "";
+}
+
+.aro-icon-reddit:before {
+  content: "";
+}
+
+.aro-icon-skype:before {
+  content: "";
+}
+
+.aro-icon-slack:before {
+  content: "";
+}
+
+.aro-icon-snapchat:before {
+  content: "";
+}
+
+.aro-icon-spotify:before {
+  content: "";
+}
+
+.aro-icon-trello:before {
+  content: "";
+}
+
+.aro-icon-twitter:before {
+  content: "";
+}
+
+.aro-icon-vimeo:before {
+  content: "";
+}
+
+.aro-icon-whatsapp:before {
+  content: "";
+}
+
+.aro-icon-wordpress:before {
+  content: "";
+}
+
+.aro-icon-yoast:before {
+  content: "";
+}
+
+.aro-icon-youtube:before {
+  content: "";
+}
+
+.aro-icon-360:before {
+  content: "";
+}
+
+.aro-icon-arrow-down:before {
+  content: "";
+}
+
+.aro-icon-arrow-left:before {
+  content: "";
+}
+
+.aro-icon-arrow-right:before {
+  content: "";
+}
+
+.aro-icon-arrow-up:before {
+  content: "";
+}
+
+.aro-icon-bars:before {
+  content: "";
+}
+
+.aro-icon-caret-down:before {
+  content: "";
+}
+
+.aro-icon-caret-left:before {
+  content: "";
+}
+
+.aro-icon-caret-right:before {
+  content: "";
+}
+
+.aro-icon-caret-up:before {
+  content: "";
+}
+
+.aro-icon-cart-empty:before {
+  content: "";
+}
+
+.aro-icon-cart:before {
+  content: "";
+}
+
+.aro-icon-check-square:before {
+  content: "";
+}
+
+.aro-icon-chevron-down:before {
+  content: "";
+}
+
+.aro-icon-chevron-left:before {
+  content: "";
+}
+
+.aro-icon-chevron-right:before {
+  content: "";
+}
+
+.aro-icon-chevron-up:before {
+  content: "";
+}
+
+.aro-icon-circle:before {
+  content: "";
+}
+
+.aro-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.aro-icon-comment:before {
+  content: "";
+}
+
+.aro-icon-comments:before {
+  content: "";
+}
+
+.aro-icon-compare:before {
+  content: "";
+}
+
+.aro-icon-contact:before {
+  content: "";
+}
+
+.aro-icon-credit-card:before {
+  content: "";
+}
+
+.aro-icon-dot-circle:before {
+  content: "";
+}
+
+.aro-icon-edit:before {
+  content: "";
+}
+
+.aro-icon-envelope:before {
+  content: "";
+}
+
+.aro-icon-expand-alt:before {
+  content: "";
+}
+
+.aro-icon-external-link-alt:before {
+  content: "";
+}
+
+.aro-icon-file-alt:before {
+  content: "";
+}
+
+.aro-icon-file-archive:before {
+  content: "";
+}
+
+.aro-icon-filter:before {
+  content: "";
+}
+
+.aro-icon-folder-open:before {
+  content: "";
+}
+
+.aro-icon-folder:before {
+  content: "";
+}
+
+.aro-icon-frown:before {
+  content: "";
+}
+
+.aro-icon-gift:before {
+  content: "";
+}
+
+.aro-icon-grip-horizontal:before {
+  content: "";
+}
+
+.aro-icon-heart-fill:before {
+  content: "";
+}
+
+.aro-icon-heart:before {
+  content: "";
+}
+
+.aro-icon-history:before {
+  content: "";
+}
+
+.aro-icon-home:before {
+  content: "";
+}
+
+.aro-icon-info-circle:before {
+  content: "";
+}
+
+.aro-icon-instagram:before {
+  content: "";
+}
+
+.aro-icon-level-up-alt:before {
+  content: "";
+}
+
+.aro-icon-list:before {
+  content: "";
+}
+
+.aro-icon-map-marker-check:before {
+  content: "";
+}
+
+.aro-icon-meh:before {
+  content: "";
+}
+
+.aro-icon-minus-circle:before {
+  content: "";
+}
+
+.aro-icon-minus:before {
+  content: "";
+}
+
+.aro-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.aro-icon-money-bill:before {
+  content: "";
+}
+
+.aro-icon-paper-plane:before {
+  content: "";
+}
+
+.aro-icon-pencil-alt:before {
+  content: "";
+}
+
+.aro-icon-plus-circle:before {
+  content: "";
+}
+
+.aro-icon-plus:before {
+  content: "";
+}
+
+.aro-icon-quickview:before {
+  content: "";
+}
+
+.aro-icon-random:before {
+  content: "";
+}
+
+.aro-icon-rating-stroke:before {
+  content: "";
+}
+
+.aro-icon-rating:before {
+  content: "";
+}
+
+.aro-icon-repeat:before {
+  content: "";
+}
+
+.aro-icon-reply-all:before {
+  content: "";
+}
+
+.aro-icon-reply:before {
+  content: "";
+}
+
+.aro-icon-search-plus:before {
+  content: "";
+}
+
+.aro-icon-search:before {
+  content: "";
+}
+
+.aro-icon-shield-check:before {
+  content: "";
+}
+
+.aro-icon-shopping-basket:before {
+  content: "";
+}
+
+.aro-icon-shopping-cart:before {
+  content: "";
+}
+
+.aro-icon-sign-out-alt:before {
+  content: "";
+}
+
+.aro-icon-smile:before {
+  content: "";
+}
+
+.aro-icon-spinner:before {
+  content: "";
+}
+
+.aro-icon-square:before {
+  content: "";
+}
+
+.aro-icon-star:before {
+  content: "";
+}
+
+.aro-icon-store:before {
+  content: "";
+}
+
+.aro-icon-sync:before {
+  content: "";
+}
+
+.aro-icon-tachometer-alt:before {
+  content: "";
+}
+
+.aro-icon-th-large:before {
+  content: "";
+}
+
+.aro-icon-th-list:before {
+  content: "";
+}
+
+.aro-icon-thumbtack:before {
+  content: "";
+}
+
+.aro-icon-ticket:before {
+  content: "";
+}
+
+.aro-icon-times-circle:before {
+  content: "";
+}
+
+.aro-icon-times:before {
+  content: "";
+}
+
+.aro-icon-trophy-alt:before {
+  content: "";
+}
+
+.aro-icon-user-headset:before {
+  content: "";
+}
+
+.aro-icon-user-shield:before {
+  content: "";
+}
+
+.aro-icon-user:before {
+  content: "";
+}
+
+.aro-icon-video:before {
+  content: "";
+}
+
+.aro-icon-wishlist-empty:before {
+  content: "";
+}
+
+.aro-icon-wishlist:before {
+  content: "";
+}
+
+/* ===== End ICONS CSS ===== */
+.aro-social ul {
+  margin: 0;
+  list-style-type: none;
+}
+.aro-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1;
+}
+.aro-social ul li:last-child {
+  margin-right: 0;
+}
+.aro-social ul li a:before {
+  position: relative;
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.aro-social ul li a[href*=twitter]:before {
+  content: "";
+  color: #1DA1F2;
+}
+.aro-social ul li a[href*=instagram]:before {
+  content: "";
+  color: #262626;
+}
+.aro-social ul li a[href*=docker]:before {
+  content: "";
+}
+.aro-social ul li a[href*=dochub]:before {
+  content: "";
+}
+.aro-social ul li a[href*=yelp]:before {
+  content: "";
+  color: #af0606;
+}
+.aro-social ul li a[href*=flickr]:before {
+  content: "";
+  color: #0063dc;
+}
+.aro-social ul li a[href*=github]:before {
+  content: "";
+  color: #333333;
+}
+.aro-social ul li a[href*=dribbble]:before {
+  content: "";
+  color: #ea4c89;
+}
+.aro-social ul li a[href*=wordpress]:before {
+  content: "";
+  color: #21759b;
+}
+.aro-social ul li a[href*=tumblr]:before {
+  content: "";
+  color: #35465c;
+}
+.aro-social ul li a[href*=angular]:before {
+  content: "";
+}
+.aro-social ul li a[href*=atlassian]:before {
+  content: "";
+}
+.aro-social ul li a[href*=snapchat]:before {
+  content: "";
+  color: #fffc00;
+}
+.aro-social ul li a[href*=apper]:before {
+  content: "";
+}
+.aro-social ul li a[href*=codepen]:before {
+  content: "";
+}
+.aro-social ul li a[href*=gulp]:before {
+  content: "";
+}
+.aro-social ul li a[href*=cpanel]:before {
+  content: "";
+}
+.aro-social ul li a[href*=skype]:before {
+  content: "";
+  color: #00AFF0;
+}
+.aro-social ul li a[href*=reddit]:before {
+  content: "";
+  color: #ff4500;
+}
+.aro-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+.aro-social ul li a[href*=slack]:before {
+  content: "";
+}
+.aro-social ul li a[href*=amazon]:before {
+  content: "";
+}
+.aro-social ul li a[href*=android]:before {
+  content: "";
+}
+.aro-social ul li a[href*=grunt]:before {
+  content: "";
+}
+.aro-social ul li a[href*=firefox]:before {
+  content: "";
+}
+.aro-social ul li a[href*=adobe]:before {
+  content: "";
+}
+.aro-social ul li a[href*=behance]:before {
+  content: "";
+}
+.aro-social ul li a[href*=dropbox]:before {
+  content: "";
+}
+.aro-social ul li a[href*=facebook]:before {
+  content: "";
+  color: #3b5998;
+}
+.aro-social ul li a[href*=linkedin]:before {
+  content: "";
+  color: #0077b5;
+}
+.aro-social ul li a[href*=paypal]:before {
+  content: "";
+}
+.aro-social ul li a[href*=trello]:before {
+  content: "";
+}
+.aro-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.aro-social ul li a[href*=youtube]:before {
+  content: "";
+  color: #cd201f;
+}
+.aro-social ul li a[href*=apple]:before {
+  content: "";
+  color: #999999;
+}
+.aro-social ul li a[href*=bitbucket]:before {
+  content: "";
+}
+.aro-social ul li a[href*=bitcoin]:before {
+  content: "";
+}
+.aro-social ul li a[href*=bluetooth]:before {
+  content: "";
+}
+.aro-social ul li a[href*=bity]:before {
+  content: "";
+}
+.aro-social ul li a[href*="google/chrome"]:before {
+  content: "";
+}
+.aro-social ul li a[href*=drupal]:before {
+  content: "";
+}
+.aro-social ul li a[href*=html5]:before {
+  content: "";
+}
+.aro-social ul li a[href*=mailchimp]:before {
+  content: "";
+}
+.aro-social ul li a[href*=jenkins]:before {
+  content: "";
+}
+.aro-social ul li a[href*=spotify]:before {
+  content: "";
+  color: #2ebd59;
+}
+.aro-social ul li a[href*=ebay]:before {
+  content: "";
+}
+.aro-social ul li a[href*=telegram]:before {
+  content: "";
+  color: #2CA5E0;
+}
+.aro-social ul li a[href*=yoast]:before {
+  content: "";
+}
+.aro-social ul li a[href*=btc-e]:before {
+  content: "";
+}
+.aro-social ul li a[href*=discord]:before {
+  content: "";
+}
+.aro-social ul li a[href*=google]:before {
+  content: "";
+  color: #dd4b39;
+}
+.aro-social ul li a[href*=google-plus]:before {
+  content: "";
+}
+.aro-social ul li a[href*=figma]:before {
+  content: "";
+}
+.aro-social ul li a[href*=joomla]:before {
+  content: "";
+}
+.aro-social ul li a[href*=opencart]:before {
+  content: "";
+}
+.aro-social ul li a[href*=pinterest]:before {
+  content: "";
+  color: #bd081c;
+}
+.aro-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.aro-social ul li a[href*=centos]:before {
+  content: "";
+}
+.aro-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+
+#comments .commentlist .bypostauthor > .comment-body cite::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+#comments .reply a::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -5px;
+}
+#comments .reply a.comment-edit-link::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#respond #cancel-comment-reply-link::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+.sticky .entry-title::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+button.loading,
+input[type=button].loading,
+input[type=reset].loading,
+input[type=submit].loading,
+.button.loading {
+  position: relative;
+}
+button.loading::after,
+input[type=button].loading::after,
+input[type=reset].loading::after,
+input[type=submit].loading::after,
+.button.loading::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+
+a[class*=product_type_].loading,
+.added_to_cart.loading {
+  position: relative;
+}
+a[class*=product_type_].loading:after,
+.added_to_cart.loading:after {
+  content: "";
+}
+a[class*=product_type_].loading:before,
+.added_to_cart.loading:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.shop-action .blockUI.blockOverlay:before,
+.shop-action .loader:before {
+  top: 50%;
+  left: 50%;
+  opacity: 1 !important;
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 20px;
+  font-size: 1.25rem;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  position: absolute;
+  display: block !important;
+  margin-left: -10px;
+  margin-top: -10px;
+  color: #000;
+}
+
+.shop-action .blockUI.blockOverlay {
+  opacity: 1 !important;
+  overflow: hidden;
+  background-image: none !important;
+  background: #fff !important;
+}
+
+.main-navigtion ul li a::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.mobile-navigation ul li button::after, .mobile-navigation-categories ul li button::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mobile-navigation ul li button.toggled-on::after, .mobile-navigation-categories ul li button.toggled-on::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_search:not(.widget_block) form::before,
+.widget_product_search form::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  z-index: 1;
+  height: 52px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+form.wp-block-search::before {
+  display: none;
+}
+form.wp-block-search .wp-block-search__inside-wrapper {
+  position: relative;
+}
+form.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.single-product .pswp__button {
+  background-color: transparent;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  text-indent: -999px;
+  overflow: hidden;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+  line-height: 20px;
+  text-indent: 0;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger img {
+  display: none !important;
+}
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .compare:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.stock::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407797364em;
+  margin-top: -4px;
+}
+.stock.in-stock::before {
+  content: "";
+}
+
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav ul {
+  margin-left: 0;
+}
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav ul li {
+  padding-left: 1.618034em;
+}
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav ul li::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407797364em;
+  display: block;
+  float: left;
+  opacity: 0.35;
+  margin-left: -1.618034em;
+  width: 1em;
+}
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav ul li .children {
+  margin-left: 0;
+}
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav li::before {
+  content: "";
+}
+.content-area .aro-dropdown-filter-wrap .widget_layered_nav .chosen::before {
+  content: "";
+}
+
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav ul {
+  margin-left: 0;
+}
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav ul li {
+  padding-left: 1.618034em;
+}
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav ul li::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407797364em;
+  display: block;
+  float: left;
+  opacity: 0.35;
+  margin-left: -1.618034em;
+  width: 1em;
+}
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav ul li .children {
+  margin-left: 0;
+}
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav li::before {
+  content: "";
+}
+.aro-canvas-filter .aro-canvas-filter-wrap .widget_layered_nav .chosen::before {
+  content: "";
+}
+
+a.remove {
+  display: block;
+  width: 1.618034em;
+  height: 1.618034em;
+  line-height: 1.618;
+  font-weight: var(--e-global-typography-text-font-weight);
+  text-indent: -9999px;
+  position: relative;
+}
+a.remove::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--e-global-color-lighter);
+  line-height: 1.618;
+  text-indent: 0;
+  text-align: center;
+}
+
+.woocommerce-shipping-calculator > p:first-child a::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.3342202552em;
+}
+
+.blockUI::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  font-size: 1.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.woocommerce-pagination .next,
+.woocommerce-pagination .prev {
+  display: inline-block;
+  position: relative;
+}
+
+#shipping_method li > label {
+  cursor: pointer;
+  padding-right: 20px;
+  position: relative;
+}
+#shipping_method li > label::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#shipping_method li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#shipping_method li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#shipping_method li > input[type=radio]:first-child:checked + label::after {
+  content: "";
+}
+#shipping_method li > input[type=hidden]:first-child + label {
+  padding-right: 0;
+}
+#shipping_method li > input[type=hidden]:first-child + label::after {
+  content: none;
+}
+
+#payment .payment_methods li > label {
+  cursor: pointer;
+}
+#payment .payment_methods li > label::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+  transition: color, ease, 0.2s;
+}
+#payment .payment_methods li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:checked + label::before {
+  content: "";
+}
+
+.woocommerce-password-strength::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-password-strength.strong::after {
+  content: "";
+}
+.woocommerce-password-strength.good::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li a::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: 1.618;
+  margin-left: 0.5407797364em;
+  width: 1.41577975em;
+  text-align: right;
+  float: right;
+  opacity: 0.25;
+}
+.woocommerce-MyAccount-navigation ul li a:hover::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--subscriptions a::before {
+  content: "";
+}
+
+.my_account_orders .button.view::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+p.order-again .button::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.woocommerce-MyAccount-downloads .button::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.demo_store::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+#reviews .commentlist li p.meta .verified {
+  display: inline-block;
+  height: 1.41577975em;
+  width: 1.41577975em;
+  position: relative;
+  text-indent: -9999px;
+}
+#reviews .commentlist li p.meta .verified::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  color: #0f834d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.41577975em;
+  height: 1.41577975em;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.618034em;
+}
+
+/**
+ * Composite Products
+ */
+.single-product div.product .component_selections .clear_component_options::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Mix and Match
+ */
+.cart .mnm_table_item .mnm_table_item_indent::before,
+.shop_table .mnm_table_item .mnm_table_item_indent::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  transform: rotate(90deg);
+  margin-right: 0.3819660059em;
+  opacity: 0.25;
+}
+
+/**
+ * Quick view
+ */
+.quick-view-button::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.6180339845em;
+}
+
+/**
+ * Ship multiple addresses
+ */
+.woocommerce-page .ship_address .gift-form label::after,
+.woocommerce-page .no_shipping_address .gift-form label::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-page .ship_address .modify-address-button::before,
+.woocommerce-page .no_shipping_address .modify-address-button::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+.woocommerce-page .addresses + .addresses header.title a::before {
+  content: "";
+}
+
+/**
+ * Product reviews pro
+ */
+.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
+.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/**
+ * Variation Swatches
+ */
+a#variations_clear::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Wishlists
+ */
+.wl-add-link::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.button.wl-create-new::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.site-header-cart .cart-contents::before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-aro-vertical-menu .vertical-navigation .aro-icon {
+  position: relative;
+}
+.elementor-widget-aro-vertical-menu .vertical-navigation .aro-icon::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 12px;
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+  .main-navigation ul.menu > li.menu-item-has-children > a:after, .main-navigation ul.menu > li.page_item_has_children > a:after, .main-navigation ul.menu > li.has-mega-menu > a:after,
+.main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 4px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    margin-bottom: 3px;
+  }
+  .gecko .main-navigation ul.menu > li.menu-item-has-children > a:after, .gecko .main-navigation ul.menu > li.page_item_has_children > a:after, .gecko .main-navigation ul.menu > li.has-mega-menu > a:after,
+.gecko .main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.gecko .main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.gecko .main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    margin-bottom: 0;
+    vertical-align: sub;
+  }
+
+  .header-side .main-navigation ul.menu > li.menu-item-has-children > a::after, .header-side .main-navigation ul.menu > li.page_item_has_children > a::after, .header-side .main-navigation ul.menu > li.has-mega-menu > a::after,
+.header-side .main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.header-side .main-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.header-side .main-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 1em;
+    margin-right: -25px;
+  }
+
+  .vertical-navigation ul.menu > li.menu-item-has-children > a::after, .vertical-navigation ul.menu > li.page_item_has_children > a::after, .vertical-navigation ul.menu > li.has-mega-menu > a::after,
+.vertical-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.vertical-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.vertical-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+    font-size: 9px;
+    font-size: 0.5625rem;
+  }
+
+  .main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    float: right;
+    margin-left: 10px;
+    line-height: 1.5;
+  }
+
+  .demo_store a.woocommerce-store-notice__dismiss-link::before {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-right: 0.3342202552em;
+  }
+
+  .addresses header.title a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0.875em;
+    margin-top: 0.6180339845em;
+  }
+  .addresses header.title a::before {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    line-height: 1.618;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  /**
+   * Wishlists
+   */
+  #wl-wrapper .wl-tabs > li.active::after {
+    font-family: "aro-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+  }
+}
+ul.wishlist_table.mobile .remove_from_wishlist:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.slick-prev:before {
+  content: "";
+}
+[dir=rtl] .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-prev:before {
+  content: "";
+}
+
+.slick-next:before {
+  content: "";
+}
+[dir=rtl] .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-next:before {
+  content: "";
+}
+
+.arrow-style-3 .slick-prev:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-prev:before {
+  content: "";
+}
+.arrow-style-3 .slick-next:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-next:before {
+  content: "";
+}
+
+body.loading {
+  position: relative;
+}
+body.loading::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  z-index: 999999;
+  color: #fff;
+}
+body.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999998;
+}
+
+.woocommerce-cart .cart-empty:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+
+h2.resp-accordion:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 10px;
+}
+h2.resp-accordion.active:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_product_categories .icon-minus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.widget_product_categories .icon-minus:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+.widget_product_categories .icon-plus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.widget_product_categories .icon-plus:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+ul.products-list li.product-list .product-caption a[class*=product_type_]:before,
+ul.products-list li.product-list .product-caption .woosc-btn:before,
+ul.products-list li.product-list .product-caption .woosw-btn:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_]:before {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosw-btn:before {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosw-btn.woosw-adding:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+}
+ul.products-list li.product-list .product-caption .woosc-btn:before {
+  content: "";
+}
+
+.shop-action .woosc-btn:before,
+.shop-action .woosq-btn:before,
+.shop-action .woosw-btn:before,
+.shop-action a[class*=product_type_]:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.shop-action .woosw-btn:before {
+  content: "";
+}
+.shop-action .woosw-btn.woosw-adding:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+}
+.shop-action .woosc-btn:before {
+  content: "";
+}
+.shop-action .woosq-btn:before {
+  content: "";
+}
+.shop-action a[class*=product_type_]:before {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading {
+  position: relative;
+}
+.shop-action a[class*=product_type_].loading:after {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading:before {
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+}
+
+.single-product div.product .entry-summary .woosc-btn:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+}
+.single-product div.product .entry-summary .woosw-btn:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+}
+
+a.read-more:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+}
+
+.elementor-widget-aro-language-switcher.language-switcher-style-mobile .aro-language-switcher .language-switcher-head:after {
+  position: relative;
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  line-height: 12px;
+}
+
+.loading-quick-shop .product-transition::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.search-by-category .input-dropdown-inner > a:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.popup-navigation ul.menu > li.menu-item-has-children > a:after, .popup-navigation ul.menu > li.page_item_has_children > a:after, .popup-navigation ul.menu > li.has-mega-menu > a:after,
+.popup-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.popup-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.popup-navigation ul.nav-menu > li.has-mega-menu > a:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.popup-navigation ul.menu ul li.menu-item-has-children > a::after, .popup-navigation ul.menu ul li.page_item_has_children > a::after,
+.popup-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.popup-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  float: right;
+  margin-left: 0.5em;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.aro-elementor-single-product .shop-button a[class*=product_type_]:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+  margin-top: 3px;
+  float: right;
+  transition: all 0.3s ease;
+}
+
+.elementor-widget-aro-image-gallery .column-item a:after {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosw-list .woosw-content-mid-notice:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+
+@keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-webkit-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-o-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-ms-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+.elementor-widget-aro-search .widget.widget_product_search button[type=submit]:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.woocommerce-tabs.product-accordions .accordion-head:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.comment-form .form-submit .submit:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.elementor-widget-opal-image-hotspots .elementor-tab-title:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.elementor-widget-opal-image-hotspots .elementor-tab-title.elementor-active:before {
+  content: "";
+}
+
+.scrollup .scrollup-icon:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-woocommerce-breadcrumb .woocommerce-breadcrumb > a:first-of-type:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 5px;
+  top: -2px;
+  position: relative;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.star-rating {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.star-rating:before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+.star-rating span::before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+
+blockquote p:first-child:before {
+  font-family: "aro-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/*# sourceMappingURL=icons.css.map */

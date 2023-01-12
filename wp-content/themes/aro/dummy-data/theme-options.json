@@ -1,0 +1,6 @@
+{
+    "aro_options_wocommerce_row_laptop": "2",
+    "aro_options_single_product_content_meta": "<ul class=\"list-items\">\n    <li>\n        <i aria-hidden=\"true\" class=\"aro-icon- aro-icon-comment\"><\/i>\n        <span>Free returns <\/span>\n    <\/li>\n    <li>\n        <i aria-hidden=\"true\" class=\"aro-icon- aro-icon-truck\"><\/i>\n        <span>Free shipping via DHL, fully insured All <\/span>\n    <\/li>\n    <li>\n        <i aria-hidden=\"true\" class=\"aro-icon- aro-icon-check-square\"><\/i>\n        <span>taxes and customs duties included<\/span>\n    <\/li>\n<\/ul>",
+    "aro_options_single_product_gallery_layout": "horizontal",
+    "aro_options_shop_banner": "banner-categories-image"
+}

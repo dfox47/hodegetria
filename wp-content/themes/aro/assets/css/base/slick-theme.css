@@ -1,0 +1,177 @@
+/* Text meant only for screen readers. */
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("../../images/slick/ajax-loader.gif") center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("../../fonts/slick.eot");
+  src: url("../../fonts/slick.eot?#iefix") format("embedded-opentype"), url("../../fonts/slick.woff") format("woff"), url("../../fonts/slick.ttf") format("truetype"), url("../../fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Arrows */
+.slick-slider button.slick-arrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  letter-spacing: 0;
+  cursor: pointer;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  outline: none;
+  z-index: 9;
+  padding: 0;
+  font-size: 0;
+  border: 1px solid var(--e-global-color-border);
+  border-radius: 50%;
+  background-color: var(--e-global-color-border);
+}
+.slick-slider button.slick-arrow:before {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: 1;
+  color: var(--e-global-color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-slider button.slick-arrow:hover, .slick-slider button.slick-arrow:focus {
+  outline: none;
+  background-color: var(--e-global-color-primary);
+}
+.slick-slider button.slick-arrow:hover:before, .slick-slider button.slick-arrow:focus:before {
+  color: #fff;
+}
+
+.style-hover-arrow-carousel-yes .slick-slider button.slick-prev,
+.style-hover-arrow-carousel-yes .slick-slider button.slick-next {
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.style-hover-arrow-carousel-yes .slick-slider:hover button.slick-prev,
+.style-hover-arrow-carousel-yes .slick-slider:hover button.slick-next {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -50%);
+}
+.style-hover-arrow-carousel-yes .slick-slider button.slick-prev {
+  transform: translate(-50%, -50%);
+}
+.style-hover-arrow-carousel-yes .slick-slider button.slick-next {
+  transform: translate(50%, -50%);
+}
+
+.arrow-style-2 .slick-slider button.slick-arrow {
+  border-radius: 0;
+}
+
+.arrow-style-3 .slick-slider button.slick-prev,
+.arrow-style-3 .slick-slider button.slick-next {
+  width: unset;
+  height: unset;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+.arrow-style-3 .slick-slider button.slick-prev:before,
+.arrow-style-3 .slick-slider button.slick-next:before {
+  font-size: 16px;
+  font-size: 1rem;
+  color: var(--e-global-color-text);
+}
+.arrow-style-3 .slick-slider button.slick-prev:hover,
+.arrow-style-3 .slick-slider button.slick-next:hover {
+  background-color: transparent;
+}
+.arrow-style-3 .slick-slider button.slick-prev:hover:before,
+.arrow-style-3 .slick-slider button.slick-next:hover:before {
+  color: var(--e-global-color-primary);
+}
+
+.slick-prev {
+  left: -21px;
+}
+
+.slick-next {
+  right: -21px;
+}
+
+/* Dots */
+.slick-dots {
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.slick-dots li button {
+  border: none;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.slick-dots {
+  padding-left: 15px;
+  padding-right: 15px;
+  left: 0;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.slick-dots li:last-child {
+  margin-right: 0;
+}
+.slick-dots li button {
+  background-color: var(--e-global-color-border);
+  opacity: 1;
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 24px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+  background-color: var(--e-global-color-secondary);
+  width: 30px;
+}
+.slick-dots li.slick-active button {
+  background-color: var(--e-global-color-secondary);
+  width: 30px;
+}
+
+.aro-index .slick-slider button.slick-prev, .aro-index .slick-slider button.slick-next {
+  z-index: 5;
+}
+
+.woocommerce-carousel ul.products,
+.aro-theme-carousel ul.products {
+  display: block;
+}
+.woocommerce-carousel .slick-list li.product,
+.aro-theme-carousel .slick-list li.product {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  display: flex !important;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=slick-theme.css.map */
