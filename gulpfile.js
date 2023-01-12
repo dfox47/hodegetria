@@ -15,47 +15,20 @@ const sass          = require('gulp-sass')(require('sass'))
 const uglify        = require('gulp-uglify')
 
 // FTP config
-const host          = config.host
-const password      = config.password
-const port          = config.port
-const user          = config.user
+const host              = config.host
+const password          = config.password
+const port              = config.port
+const user              = config.user
 
-const remoteFolder      = '/wp-content/themes/supermag/'
-const remoteHooks       = remoteFolder + 'acmethemes/hooks/'
-const remoteAssets      = remoteFolder + 'assets/'
-const remoteCss         = remoteAssets + 'css/'
-const remoteJs          = remoteAssets + 'js/'
-const remoteParts       = remoteFolder + 'template-parts/'
+// remote theme
+const remoteTheme       = '/wp-content/themes/aro/'
+const remoteCss         = remoteTheme + 'css/'
+const remoteJs          = remoteTheme + 'js/'
 
-const localFolder       = 'wp-content/themes/supermag/'
-const localHooks        = localFolder + 'acmethemes/hooks/'
-const localAssets       = localFolder + 'assets/'
-const localCss          = localAssets + 'css/'
-const localJs           = localAssets + 'js/'
-const localParts        = localFolder + 'template-parts/'
-
-
-
-// GOST club template
-const gostRemote            = '/wp-content/themes/gostclub2022/'
-const gostRemoteCss         = gostRemote + 'css/'
-const gostRemoteJs          = gostRemote + 'js/'
-const gostRemoteParts       = gostRemote + 'template-parts/'
-const gostRemoteIncludes    = '/wp-includes/css/dist/block-library/'
-const gostRemoteWCBlocks    = '/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/'
-const gostRemoteWCLayout    = '/wp-content/plugins/woocommerce/assets/css/'
-const gostRemoteWCVendors   = '/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/'
-const gostRemoteWC          = '/wp-content/plugins/woocommerce/assets/css/'
-
-const gostLocal             = 'wp-content/themes/gostclub2022/'
-const gostLocalCss          = gostLocal + 'css/'
-const gostLocalJs           = gostLocal + 'js/'
-const gostLocalParts        = gostLocal + 'template-parts/'
-const gostLocalIncludes     = 'wp-includes/css/dist/block-library/'
-const gostLocalWC           = 'wp-content/plugins/woocommerce/assets/css/'
-const gostLocalWCBlocks     = 'wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/'
-const gostLocalWCLayout     = 'wp-content/plugins/woocommerce/assets/css/'
-const gostLocalWCVendors    = 'wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/'
+// local theme
+const localTheme        = 'wp-content/themes/aro/'
+const localCss          = localTheme + 'css/'
+const localJs           = localTheme + 'js/'
 
 
 
@@ -87,9 +60,9 @@ gulp.task('gostCss', function () {
 		.pipe(conn.dest(gostRemote))
 })
 
-gulp.task('gostCssCopy', function () {
-	return gulp.src(gostLocalCss + '**/*')
-		.pipe(conn.dest(gostRemoteCss))
+gulp.task('phpCopy', function () {
+	return gulp.src(localTheme + '*.php')
+		.pipe(conn.dest(remoteTheme))
 })
 
 gulp.task('gostJs', function () {
@@ -144,20 +117,11 @@ gulp.task('gostWCCopy', function () {
 	return gulp.src(gostLocalWC + 'woocommerce.css')
 		.pipe(conn.dest(gostRemoteWC))
 })
-// gost club tasks [END]
 
 
 
 gulp.task('watch', function() {
-	gulp.watch(gostLocal + '*.php',             gulp.series('gostPhp'))
-	gulp.watch(gostLocalCss + '**/*',           gulp.series('gostCss', 'gostCssCopy'))
-	gulp.watch(gostLocalIncludes + '**/*',      gulp.series('gostWCIncludesCopy'))
-	gulp.watch(gostLocalJs + '**/*',            gulp.series('gostJs', 'gostJsCopy'))
-	gulp.watch(gostLocalParts + '**/*',         gulp.series('gostTemplateParts'))
-	gulp.watch(gostLocalWC + '**/*',            gulp.series('gostWCCopy'))
-	gulp.watch(gostLocalWCBlocks + '**/*',      gulp.series('gostWCBlocksCopy'))
-	gulp.watch(gostLocalWCLayout + '**/*',      gulp.series('gostWCLayoutCopy'))
-	gulp.watch(gostLocalWCVendors + '**/*',     gulp.series('gostWCVendorsCopy'))
+	gulp.watch(localTheme + '*.php',             gulp.series('phpCopy'))
 })
 
 gulp.task('default', gulp.series('watch'))

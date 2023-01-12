@@ -1,10 +1,10 @@
 <?php
 $sidebar = apply_filters('aro_theme_sidebar', '');
 if (!$sidebar) {
-    return;
+	return;
 }
 ?>
 
 <div id="secondary" class="widget-area" role="complementary">
-    <?php dynamic_sidebar($sidebar); ?>
+	<?php dynamic_sidebar($sidebar); ?>
 </div><!-- #secondary -->
