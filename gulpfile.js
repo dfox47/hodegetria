@@ -24,11 +24,13 @@ const user              = config.user
 const remoteTheme       = '/wp-content/themes/aro/'
 const remoteCss         = remoteTheme + 'css/'
 const remoteJs          = remoteTheme + 'js/'
+const remoteParts       = remoteTheme + 'js/'
 
 // local theme
 const localTheme        = 'wp-content/themes/aro/'
 const localCss          = localTheme + 'css/'
 const localJs           = localTheme + 'js/'
+const localParts        = localTheme + 'template-parts/'
 
 
 
@@ -63,6 +65,11 @@ gulp.task('gostCss', function () {
 gulp.task('phpCopy', function () {
 	return gulp.src(localTheme + '*.php')
 		.pipe(conn.dest(remoteTheme))
+})
+
+gulp.task('partsCopy', function () {
+	return gulp.src(localParts + '**/*.php')
+		.pipe(conn.dest(remoteParts))
 })
 
 gulp.task('gostJs', function () {
@@ -122,6 +129,7 @@ gulp.task('gostWCCopy', function () {
 
 gulp.task('watch', function() {
 	gulp.watch(localTheme + '*.php',             gulp.series('phpCopy'))
+	gulp.watch(localParts + '**/*.php',          gulp.series('partsCopy'))
 })
 
 gulp.task('default', gulp.series('watch'))
