@@ -24,7 +24,7 @@ const user              = config.user
 const remoteTheme       = '/wp-content/themes/aro/'
 const remoteCss         = remoteTheme + 'css/'
 const remoteJs          = remoteTheme + 'js/'
-const remoteParts       = remoteTheme + 'js/'
+const remoteParts       = remoteTheme + 'template-parts/'
 
 // local theme
 const localTheme        = 'wp-content/themes/aro/'
