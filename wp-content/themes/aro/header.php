@@ -4,15 +4,15 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 	<link rel="profile" href="//gmpg.org/xfn/11">
 
-	<?php
-	/**
-	 * Functions hooked in to wp_head action
-	 *
-	 * @see aro_pingback_header - 1
-	 */
+	<?php // favicon
+	include_once 'template-parts/favicon.php'; ?>
+
+	<?php // Functions hooked in to wp_head action
+	// @see aro_pingback_header - 1
+
 	wp_head(); ?>
 </head>
 
