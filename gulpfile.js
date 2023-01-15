@@ -22,14 +22,14 @@ const user              = config.user
 
 // remote theme
 const remoteTheme       = '/wp-content/themes/aro/'
-const remoteCss         = remoteTheme + 'css/'
-const remoteJs          = remoteTheme + 'js/'
+const remoteCss         = remoteTheme + 'assets/css/'
+const remoteJs          = remoteTheme + 'assets/js/'
 const remoteParts       = remoteTheme + 'template-parts/'
 
 // local theme
 const localTheme        = 'wp-content/themes/aro/'
-const localCss          = localTheme + 'css/'
-const localJs           = localTheme + 'js/'
+const localCss          = localTheme + 'assets/css/'
+const localJs           = localTheme + 'assets/js/'
 const localParts        = localTheme + 'template-parts/'
 
 
@@ -50,16 +50,14 @@ const conn = getFtpConnection()
 
 
 
-// gost club tasks [START]
-gulp.task('gostCss', function () {
-	return gulp.src(gostLocalCss + 'styles.scss')
+gulp.task('css', function () {
+	return gulp.src(localCss + 'styles.scss')
 		.pipe(sass())
 		.pipe(cssMinify())
 		.pipe(rename({
-			basename: 'style',
-			// suffix: '.min'
+			basename: 'style'
 		}))
-		.pipe(conn.dest(gostRemote))
+		.pipe(conn.dest(remoteTheme))
 })
 
 gulp.task('phpCopy', function () {
@@ -72,7 +70,7 @@ gulp.task('partsCopy', function () {
 		.pipe(conn.dest(remoteParts))
 })
 
-gulp.task('gostJs', function () {
+gulp.task('js', function () {
 	return gulp.src([
 		gostLocalJs + 'jquery-3.6.0.min.js',
 		gostLocalJs + '**/*.js'
@@ -85,51 +83,10 @@ gulp.task('gostJs', function () {
 		.pipe(conn.dest(gostRemote))
 })
 
-gulp.task('gostJsCopy', function () {
-	return gulp.src(gostLocalJs + '**/*')
-		.pipe(conn.dest(gostRemoteJs))
-})
-
-gulp.task('gostPhp', function () {
-	return gulp.src(gostLocal + '*.php')
-		.pipe(conn.dest(gostRemote))
-})
-
-gulp.task('gostTemplateParts', function () {
-	return gulp.src(gostLocalParts + '**/*')
-		.pipe(conn.dest(gostRemoteParts))
-})
-
-gulp.task('gostWCBlocksCopy', function () {
-	return gulp.src(gostLocalWCBlocks + 'wc-blocks-style.css')
-		.pipe(conn.dest(gostRemoteWCBlocks))
-})
-
-gulp.task('gostWCIncludesCopy', function () {
-	return gulp.src(gostLocalIncludes + 'style.min.css')
-		.pipe(conn.dest(gostRemoteIncludes))
-})
-
-gulp.task('gostWCLayoutCopy', function () {
-	return gulp.src(gostLocalWCLayout + 'woocommerce-layout.css')
-		.pipe(conn.dest(gostRemoteWCLayout))
-})
-
-gulp.task('gostWCVendorsCopy', function () {
-	return gulp.src(gostLocalWCVendors + 'wc-blocks-vendors-style.css')
-		.pipe(conn.dest(gostRemoteWCVendors))
-})
-
-gulp.task('gostWCCopy', function () {
-	return gulp.src(gostLocalWC + 'woocommerce.css')
-		.pipe(conn.dest(gostRemoteWC))
-})
-
-
-
 gulp.task('watch', function() {
-	gulp.watch(localTheme + '*.php',             gulp.series('phpCopy'))
-	gulp.watch(localParts + '**/*.php',          gulp.series('partsCopy'))
+	gulp.watch(localTheme + '*.php',            gulp.series('phpCopy'))
+	gulp.watch(localParts + '**/*.php',         gulp.series('partsCopy'))
+	gulp.watch(localCss + '**/*',               gulp.series('css'))
 })
 
 gulp.task('default', gulp.series('watch'))
