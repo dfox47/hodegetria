@@ -60,6 +60,11 @@ gulp.task('css', function () {
 		.pipe(conn.dest(remoteTheme))
 })
 
+gulp.task('cssCopy', function () {
+	return gulp.src(localCss + '**/*')
+		.pipe(conn.dest(remoteCss))
+})
+
 gulp.task('phpCopy', function () {
 	return gulp.src(localTheme + '*.php')
 		.pipe(conn.dest(remoteTheme))
@@ -86,7 +91,7 @@ gulp.task('js', function () {
 gulp.task('watch', function() {
 	gulp.watch(localTheme + '*.php',            gulp.series('phpCopy'))
 	gulp.watch(localParts + '**/*.php',         gulp.series('partsCopy'))
-	gulp.watch(localCss + '**/*',               gulp.series('css'))
+	gulp.watch(localCss + '**/*',               gulp.series('css', 'cssCopy'))
 })
 
 gulp.task('default', gulp.series('watch'))
