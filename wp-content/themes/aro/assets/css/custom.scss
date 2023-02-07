@@ -34,3 +34,13 @@
 	height: 400px;
 	width: 100%;
 }
+
+.elementor-widget-woocommerce-breadcrumb {
+	.woocommerce-breadcrumb {
+		a {
+			&:first-child {
+				font-size: 0;
+			}
+		}
+	}
+}
