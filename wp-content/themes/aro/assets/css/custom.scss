@@ -35,11 +35,50 @@
 	width: 100%;
 }
 
+body {
+	.elementor-321 {
+		.elementor-element{
+			&.elementor-element-a92706d {
+				&:not(.elementor-motion-effects-element-type-background) {
+					background: none;
+					padding: 0 30px;
+
+					.aro-woocommerce-title {
+						color: #000;
+						text-align: left;
+					}
+
+					.woocommerce-breadcrumb {
+						color: #000;
+						text-align: left;
+
+						a {
+							color: #000;
+						}
+
+						i {
+							color: #000;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
 .elementor-widget-woocommerce-breadcrumb {
 	.woocommerce-breadcrumb {
 		a {
 			&:first-child {
 				font-size: 0;
+			}
+
+			&:first-of-type {
+				&::before {
+					top: -6px;
+				}
 			}
 		}
 	}
