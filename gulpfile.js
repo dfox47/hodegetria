@@ -88,10 +88,16 @@ gulp.task('js', function () {
 		.pipe(conn.dest(gostRemote))
 })
 
+gulp.task('jsCopy', function () {
+	return gulp.src(localJs + '**/*')
+		.pipe(conn.dest(remoteJs))
+})
+
 gulp.task('watch', function() {
 	gulp.watch(localTheme + '*.php',            gulp.series('phpCopy'))
 	gulp.watch(localParts + '**/*.php',         gulp.series('partsCopy'))
 	gulp.watch(localCss + '**/*',               gulp.series('css', 'cssCopy'))
+	gulp.watch(localJs + '**/*',                gulp.series('jsCopy'))
 })
 
 gulp.task('default', gulp.series('watch'))
