@@ -28,13 +28,13 @@ $product_sku = ($sku = $product->get_sku()) ? $sku : esc_html__('N/A', 'aro');
 
     <?php if (wc_product_sku_enabled() && ($product->get_sku() || $product->is_type('variable'))) : ?>
 
-        <span class="sku_wrapper"><span class="meta-label"><?php esc_html_e('SKU:', 'aro'); ?> </span><span class="sku"><?php echo sprintf('%s', $product_sku); ?></span></span>
+        <span class="sku_wrapper"><span class="meta-label"><?php esc_html_e('КОД:', 'aro'); ?> </span><span class="sku"><?php echo sprintf('%s', $product_sku); ?></span></span>
 
     <?php endif; ?>
 
-	<?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', count( $product->get_category_ids() ), 'aro' ) . ' ', '</span>' ); ?>
+	<?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Категория:', 'Категории:', count( $product->get_category_ids() ), 'aro' ) . ' ', '</span>' ); ?>
 
-	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'aro' ) . ' ', '</span>' ); ?>
+	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Тагове:', 'Тагове:', count( $product->get_tag_ids() ), 'aro' ) . ' ', '</span>' ); ?>
 
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
 
