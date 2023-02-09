@@ -1,3 +1,39 @@
+#payment {
+	.payment_methods {
+		> .wc_payment_method {
+			> label {
+				&[for="payment_method_paypal"] {
+					&::after {
+						background: url(/wp-content/uploads/2023/02/paypal.svg) no-repeat center transparent scroll;
+						background-size: contain;
+						content: "";
+						display: block;
+						height: 20px;
+						position: absolute;
+						left: 25px;
+						top: 0;
+						width: 40px;
+					}
+				}
+
+				&[for="payment_method_stripe"] {
+					&::after {
+						background: url(/wp-content/uploads/2023/02/stripe.svg) no-repeat center transparent scroll;
+						background-size: contain;
+						content: "";
+						display: block;
+						height: 20px;
+						position: absolute;
+						left: 25px;
+						top: 0;
+						width: 40px;
+					}
+				}
+			}
+		}
+	}
+}
+
 .brands_list {
 	.column-item {
 		align-items: center;
@@ -81,3 +117,6 @@ body {
 		}
 	}
 }
+
+
+
