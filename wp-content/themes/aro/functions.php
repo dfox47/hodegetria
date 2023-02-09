@@ -68,3 +68,27 @@ if (aro_is_elementor_activated()) {
 if (!is_user_logged_in()) {
 	require get_theme_file_path('inc/modules/class-login.php');
 }
+
+
+// checkout privacy policy [START]
+add_action('woocommerce_review_order_before_submit', 'add_privacy_checkbox', 9);
+
+function add_privacy_checkbox() {
+	woocommerce_form_field( 'privacy_policy', array(
+		'type' => 'checkbox',
+		'class' => array('form-row privacy'),
+		'label_class' => array('woocommerce-form__label woocommerce-form__label-for-checkbox checkbox'),
+		'input_class' => array('woocommerce-form__input woocommerce-form__input-checkbox input-checkbox'),
+		'required' => true,
+		'label' => 'Прочетох и съм съгласен с <a href="/privacy-policy-2/">политиката на поверителност.</a>',
+	));
+}
+
+add_action('woocommerce_checkout_process', 'privacy_checkbox_error_message');
+
+function privacy_checkbox_error_message() {
+	if ( ! (int) isset( $_POST['privacy_policy'] ) ) {
+		wc_add_notice(__('Трябва да се съгласите с нашата политика за поверителност, за да продължите'), 'error');
+	}
+}
+// checkout privacy policy [END]
