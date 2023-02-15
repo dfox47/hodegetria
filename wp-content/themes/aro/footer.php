@@ -40,5 +40,7 @@ do_action( 'aro_after_footer' ); ?>
 
 wp_footer(); ?>
 
+<script src="/wp-content/themes/aro/assets/js/custom.js"></script>
+
 </body>
 </html>
