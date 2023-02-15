@@ -444,7 +444,7 @@ class Aro_Elementor_Mailchimp extends Elementor\Widget_Base
 
     protected function render()
     {
-        echo '<div class="form-style">';
+        echo '<div class="form-style xxxx">';
             mc4wp_show_form();
         echo '</div>';
     }
