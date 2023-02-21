@@ -95,9 +95,9 @@ gulp.task('jsCopy', function () {
 
 gulp.task('watch', function() {
 	gulp.watch(localTheme + '*.php',            gulp.series('phpCopy'))
-	gulp.watch(localParts + '**/*.php',         gulp.series('partsCopy'))
+	// gulp.watch(localParts + '**/*.php',         gulp.series('partsCopy'))
 	gulp.watch(localCss + '**/*',               gulp.series('css', 'cssCopy'))
-	gulp.watch(localJs + '**/*',                gulp.series('jsCopy'))
+	// gulp.watch(localJs + '**/*',                gulp.series('jsCopy'))
 })
 
 gulp.task('default', gulp.series('watch'))
