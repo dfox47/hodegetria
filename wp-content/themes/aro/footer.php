@@ -2,6 +2,29 @@
 </div><!-- .col-full -->
 </div><!-- #content -->
 
+<ul class="footer_mobile">
+	<li class="footer_mobile__item">
+		<a class="footer_mobile__link button-search-popup" href="javascript:void(0);">
+			<i class="aro-icon-search"></i>
+			<span class="footer_mobile__desc">Търсене</span>
+		</a>
+	</li>
+
+	<li class="footer_mobile__item">
+		<a class="footer_mobile__link" href="/my-account/">
+			<i class="aro-icon- aro-icon-account"></i>
+			<span class="footer_mobile__desc">Account</span>
+		</a>
+	</li>
+
+	<li class="footer_mobile__item">
+		<a class="footer_mobile__link" href="/cart/">
+			<i aria-hidden="true" class="aro-icon- aro-icon-cart"></i>
+			<span class="footer_mobile__desc">Cart</span>
+		</a>
+	</li>
+</ul>
+
 <?php do_action( 'aro_before_footer' );
 if (aro_is_elementor_activated() && function_exists('hfe_init') && (hfe_footer_enabled() || hfe_is_before_footer_enabled())) {
 	do_action('hfe_footer_before');
