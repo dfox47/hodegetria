@@ -1,0 +1,46 @@
+$i:                     '/images';
+$icons:                 $i + '/icons';
+
+// colors
+$c_bg__footer:      #ededed;
+$c_bg__dark:        #404040;
+$c_greetings_bg:    #f3f3f3;
+$c_header_bg:       #f0f0f0;
+$c_hr:              #636363;
+$c_main:            #e4032b;
+$c_menu_bg:         #2d2d2d;
+$c_search__bg:      #d6d6d6;
+$c_submenu_bg:      #ccc;
+$c_text:            #999;
+
+$transition:            all .3s ease-in-out;
+
+// @medias
+$desktop:       'only screen and (max-width: 1279px)';
+$mobile:        'only screen and (max-width: 767px)';
+$mobile_s:      'only screen and (max-width: 400px)';
+$tablet:        'only screen and (max-width: 1023px)';
+
+// fonts
+$font_main:                 'rosinfra_regular',     Arial, Helvetica, sans-serif;
+$font_rosinfra_black:       'rosinfra_black',       Arial, Helvetica, sans-serif;
+$font_rosinfra_bold:        'rosinfra_bold',        Arial, Helvetica, sans-serif;
+$font_rosinfra_medium:      'rosinfra_medium',      Arial, Helvetica, sans-serif;
+$font_rosinfra_normal:      'rosinfra_normal',      Arial, Helvetica, sans-serif;
+$font_rosinfra_regular:     'rosinfra_regular',     Arial, Helvetica, sans-serif;
+$font_rosinfra_thin:        'rosinfra_thin',        Arial, Helvetica, sans-serif;
+
+// fonts array [START]
+$fontNames: rosinfra_black, rosinfra_bold, rosinfra_extralight, rosinfra_medium, rosinfra_normal, rosinfra_regular, rosinfra_thin;
+
+@each $fontName in $fontNames {
+	@font-face {
+		font-family: '#{$fontName}';
+		src: url('fonts/#{$fontName}.eot');
+		src: url('fonts/#{$fontName}.eot?#iefix') format('embedded-opentype'),
+		url('fonts/#{$fontName}.woff2') format('woff2'),
+		url('fonts/#{$fontName}.woff') format('woff'),
+		url('fonts/#{$fontName}.ttf') format('truetype');
+	}
+}
+// fonts array [END]
