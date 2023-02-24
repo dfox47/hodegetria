@@ -63,7 +63,7 @@ do_action( 'aro_after_footer' ); ?>
 
 wp_footer(); ?>
 
-<script src="/wp-content/themes/aro/assets/js/custom.js"></script>
+<script src="/wp-content/themes/aro/assets/js/custom.js?v<?php echo(date("Ymd")); ?>"></script>
 
 </body>
 </html>
