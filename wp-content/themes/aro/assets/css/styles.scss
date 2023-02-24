@@ -9228,7 +9228,11 @@ blockquote p:first-child:before {
 
 /*# sourceMappingURL=style.css.map */
 
+// should be 1st
 @import "vars";
 
+@import "woocommerce";
+
+// should be last
 @import "custom";
 

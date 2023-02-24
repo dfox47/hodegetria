@@ -65,6 +65,14 @@ body {
 	}
 }
 
+#wc-stripe-payment-request-button-separator {
+	display: none!important;
+}
+
+#wc-stripe-payment-request-wrapper {
+	margin: 0 0 30px;
+}
+
 .brands_list {
 	.column-item {
 		align-items: center;
@@ -156,19 +164,5 @@ body {
 		display: inline-block;
 		font-size: 14px;
 		padding: 5px 0 0;
-	}
-}
-
-.woocommerce-shipping-calculator {
-	display: none;
-}
-
-.woocommerce-shipping-destination {
-	display: none;
-}
-
-.woocommerce-shipping-methods {
-	label {
-		white-space: nowrap;
 	}
 }
