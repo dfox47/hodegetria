@@ -157,6 +157,27 @@ body {
 	}
 }
 
+.payments_list {
+	margin: 0 auto;
+
+	.elementor-element {
+		img {
+			max-height: 45px;
+			max-width: 60px;
+		}
+
+		margin: 15px 0 0;
+
+		&:first-child {
+			margin: 0;
+		}
+	}
+
+	.elementor-widget-wrap {
+		justify-content: center;
+	}
+}
+
 .post-author {
 	font-size: 0;
 
