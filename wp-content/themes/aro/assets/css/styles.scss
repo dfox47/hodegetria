@@ -9231,6 +9231,7 @@ blockquote p:first-child:before {
 // should be 1st
 @import "vars";
 
+@import "footer";
 @import "woocommerce";
 
 // should be last
