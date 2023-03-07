@@ -51,7 +51,6 @@ if ( ! wp_doing_ajax() ) {
 				printf( esc_html__( 'Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so.', 'woocommerce' ), '<em>', '</em>' ); ?>
 
 				<br/>
-
 				<button type="submit" class="button alt<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ); ?>" name="woocommerce_checkout_update_totals" value="<?php esc_attr_e( 'Update totals', 'woocommerce' ); ?>"><?php esc_html_e( 'Update totals', 'woocommerce' ); ?></button>
 			</noscript>
 
@@ -59,7 +58,7 @@ if ( ! wp_doing_ajax() ) {
 
 			<?php do_action('woocommerce_review_order_before_submit'); ?>
 
-			<p class="policy_cancel"><a href="/cancellation-policy/" target="_blank">Cancellation policy</a></p>
+			<p class="policy_cancel"><a href="/cancellation-policy/" target="_blank">Връщане на стока</a></p>
 
 			<?php echo apply_filters( 'woocommerce_order_button_html', '<button type="submit" class="button alt' . esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ) . '" name="woocommerce_checkout_place_order" id="place_order" value="' . esc_attr( $order_button_text ) . '" data-value="' . esc_attr( $order_button_text ) . '">' . esc_html( $order_button_text ) . '</button>' ); // @codingStandardsIgnoreLine ?>
 

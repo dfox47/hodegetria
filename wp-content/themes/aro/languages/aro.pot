@@ -5598,3 +5598,6 @@ msgstr[1] ""
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
 msgstr ""
+
+msgid "Quick Comparison"
+msgstr "xxxxxxxxxxx"
