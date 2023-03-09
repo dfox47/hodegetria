@@ -126,6 +126,25 @@ body {
 	}
 }
 
+.hfe-nav-menu {
+	@media only screen and (max-width: 1024px) {
+		&__layout-horizontal {
+			height: auto !important;
+			opacity: 1 !important;
+			visibility: visible !important;
+
+			.hfe-nav-menu {
+				visibility: visible !important;
+				opacity: 1 !important;
+			}
+		}
+
+		&__toggle {
+			display: none !important;
+		}
+	}
+}
+
 .payments_list {
 	filter: grayscale(100%);
 	margin: 0 auto;
@@ -160,5 +179,24 @@ body {
 		display: inline-block;
 		font-size: 14px;
 		padding: 5px 0 0;
+	}
+}
+
+.product {
+	.woosc-quick-table {
+		display: none;
+	}
+}
+
+.products {
+	&.related {
+		h2 {
+			font-size: 0 !important;
+
+			&::before {
+				content: "Подобни продукти";
+				font-size: 24px;
+			}
+		}
 	}
 }
