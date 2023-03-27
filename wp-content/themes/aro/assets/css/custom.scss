@@ -110,6 +110,30 @@ body {
 	width: 100%;
 }
 
+.elementor-1503 {
+	.elementor-element {
+		&.elementor-element-dbe8658 {
+			nav {
+				&.hfe-dropdown {
+					background: none !important;
+
+					.menu-item {
+						border: 0 none !important;
+
+						a.hfe-menu-item {
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.elementor-element-fb21b3f {
+	display: none!important;
+}
+
 .elementor-widget-woocommerce-breadcrumb {
 	.woocommerce-breadcrumb {
 		a {
@@ -200,3 +224,4 @@ body {
 		}
 	}
 }
+
