@@ -33,15 +33,15 @@ if ( ! wp_doing_ajax() ) {
 					echo '<li class="woocommerce-notice woocommerce-notice--info woocommerce-info">' . apply_filters( 'woocommerce_no_available_payment_methods_message', WC()->customer->get_billing_country() ? esc_html__( 'Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.', 'woocommerce' ) : esc_html__( 'Please fill in your details above to see available payment methods.', 'woocommerce' ) ) . '</li>'; // @codingStandardsIgnoreLine
 				} ?>
 
-				<li class="wc_payment_method payment_method_cod">
-					<input id="payment_method_paypal" type="radio" class="input-radio" name="payment_method" value="paypal" data-order_button_text="">
-
-					<label for="payment_method_paypal">PayPal</label>
-
-					<div class="payment_box payment_method_paypal">
-						<p>Платете през PayPal.</p>
-					</div>
-				</li>
+<!--				<li class="wc_payment_method payment_method_cod">-->
+<!--					<input id="payment_method_paypal" type="radio" class="input-radio" name="payment_method" value="paypal" data-order_button_text="">-->
+<!---->
+<!--					<label for="payment_method_paypal">PayPal</label>-->
+<!---->
+<!--					<div class="payment_box payment_method_paypal">-->
+<!--						<p>Платете през PayPal.</p>-->
+<!--					</div>-->
+<!--				</li>-->
 			</ul>
 		<?php endif; ?>
 
