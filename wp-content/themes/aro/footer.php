@@ -65,5 +65,15 @@ wp_footer(); ?>
 
 <script src="/wp-content/themes/aro/assets/js/custom.js?v<?php echo(date("Ymd")); ?>"></script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="//www.googletagmanager.com/gtag/js?id=G-HE2ZNXP2NJ"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-HE2ZNXP2NJ');
+</script>
+
 </body>
 </html>
