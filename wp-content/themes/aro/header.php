@@ -10,6 +10,11 @@
 	<?php // favicon
 	include_once 'template-parts/favicon.php'; ?>
 
+	<meta name="twitter:image" content="https://hodegetria.com/wp-content/uploads/2023/02/cropped-cropped-hodegetria-logo.png">
+	<meta property="og:image" content="https://hodegetria.com/wp-content/uploads/2023/02/cropped-cropped-hodegetria-logo.png">
+	<meta property="og:title" content="Одигитрия">
+	<meta property="og:url" content="https://hodegetria.com">
+
 	<?php // Functions hooked in to wp_head action
 	// @see aro_pingback_header - 1
 
