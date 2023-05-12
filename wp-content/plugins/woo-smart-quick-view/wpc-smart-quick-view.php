@@ -3,7 +3,7 @@
 Plugin Name: WPC Smart Quick View for WooCommerce
 Plugin URI: https://wpclever.net/
 Description: WPC Smart Quick View allows users to get a quick look of products without opening the product page.
-Version: 3.4.2
+Version: 3.4.3
 Author: WPClever
 Author URI: https://wpclever.net
 Text Domain: woo-smart-quick-view
@@ -18,7 +18,7 @@ use Automattic\WooCommerce\Utilities\FeaturesUtil;
 
 defined( 'ABSPATH' ) || exit;
 
-! defined( 'WOOSQ_VERSION' ) && define( 'WOOSQ_VERSION', '3.4.2' );
+! defined( 'WOOSQ_VERSION' ) && define( 'WOOSQ_VERSION', '3.4.3' );
 ! defined( 'WOOSQ_FILE' ) && define( 'WOOSQ_FILE', __FILE__ );
 ! defined( 'WOOSQ_URI' ) && define( 'WOOSQ_URI', plugin_dir_url( __FILE__ ) );
 ! defined( 'WOOSQ_DIR' ) && define( 'WOOSQ_DIR', plugin_dir_path( __FILE__ ) );
@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) || exit;
 
 include 'includes/wpc-dashboard.php';
 include 'includes/wpc-menu.php';
-include 'includes/wpc-kit.php';
+include 'includes/kit/wpc-kit.php';
 
 if ( ! function_exists( 'woosq_init' ) ) {
 	add_action( 'plugins_loaded', 'woosq_init', 11 );

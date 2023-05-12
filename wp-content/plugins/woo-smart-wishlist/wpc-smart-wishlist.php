@@ -3,7 +3,7 @@
 Plugin Name: WPC Smart Wishlist for WooCommerce
 Plugin URI: https://wpclever.net/
 Description: WPC Smart Wishlist is a simple but powerful tool that can help your customer save products for buy later.
-Version: 4.6.5
+Version: 4.6.7
 Author: WPClever
 Author URI: https://wpclever.net
 Text Domain: woo-smart-wishlist
@@ -18,7 +18,7 @@ use Automattic\WooCommerce\Utilities\FeaturesUtil;
 
 defined( 'ABSPATH' ) || exit;
 
-! defined( 'WOOSW_VERSION' ) && define( 'WOOSW_VERSION', '4.6.5' );
+! defined( 'WOOSW_VERSION' ) && define( 'WOOSW_VERSION', '4.6.7' );
 ! defined( 'WOOSW_FILE' ) && define( 'WOOSW_FILE', __FILE__ );
 ! defined( 'WOOSW_URI' ) && define( 'WOOSW_URI', plugin_dir_url( __FILE__ ) );
 ! defined( 'WOOSW_DIR' ) && define( 'WOOSW_DIR', plugin_dir_path( __FILE__ ) );
@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) || exit;
 
 include 'includes/wpc-dashboard.php';
 include 'includes/wpc-menu.php';
-include 'includes/wpc-kit.php';
+include 'includes/kit/wpc-kit.php';
 
 // plugin activate
 register_activation_hook( __FILE__, 'woosw_plugin_activate' );
@@ -204,6 +204,9 @@ if ( ! function_exists( 'woosw_init' ) ) {
 
 					if ( ! empty( $button_position_archive ) ) {
 						switch ( $button_position_archive ) {
+							case 'before_title':
+								add_action( 'woocommerce_shop_loop_item_title', [ $this, 'add_button' ], 9 );
+								break;
 							case 'after_title':
 								add_action( 'woocommerce_shop_loop_item_title', [ $this, 'add_button' ], 11 );
 								break;
@@ -1002,6 +1005,7 @@ if ( ! function_exists( 'woosw_init' ) ) {
 												<?php
 												$position_archive  = apply_filters( 'woosw_button_position_archive', 'default' );
 												$positions_archive = apply_filters( 'woosw_button_positions_archive', [
+													'before_title'       => esc_html__( 'Above title', 'woo-smart-wishlist' ),
 													'after_title'        => esc_html__( 'Under title', 'woo-smart-wishlist' ),
 													'after_rating'       => esc_html__( 'Under rating', 'woo-smart-wishlist' ),
 													'after_price'        => esc_html__( 'Under price', 'woo-smart-wishlist' ),

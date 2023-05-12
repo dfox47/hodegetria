@@ -3,7 +3,7 @@
 Plugin Name: WPC Smart Compare for WooCommerce
 Plugin URI: https://wpclever.net/
 Description: Smart products compare for WooCommerce.
-Version: 5.4.3
+Version: 5.4.5
 Author: WPClever
 Author URI: https://wpclever.net
 Text Domain: woo-smart-compare
@@ -18,7 +18,7 @@ use Automattic\WooCommerce\Utilities\FeaturesUtil;
 
 defined( 'ABSPATH' ) || exit;
 
-! defined( 'WOOSC_VERSION' ) && define( 'WOOSC_VERSION', '5.4.3' );
+! defined( 'WOOSC_VERSION' ) && define( 'WOOSC_VERSION', '5.4.5' );
 ! defined( 'WOOSC_FILE' ) && define( 'WOOSC_FILE', __FILE__ );
 ! defined( 'WOOSC_URI' ) && define( 'WOOSC_URI', plugin_dir_url( __FILE__ ) );
 ! defined( 'WOOSC_DIR' ) && define( 'WOOSC_DIR', plugin_dir_path( __FILE__ ) );
@@ -30,7 +30,7 @@ defined( 'ABSPATH' ) || exit;
 
 include 'includes/wpc-dashboard.php';
 include 'includes/wpc-menu.php';
-include 'includes/wpc-kit.php';
+include 'includes/kit/wpc-kit.php';
 
 if ( ! function_exists( 'woosc_init' ) ) {
 	add_action( 'plugins_loaded', 'woosc_init', 11 );
@@ -214,6 +214,9 @@ if ( ! function_exists( 'woosc_init' ) ) {
 
 					if ( ! empty( $btn_a ) ) {
 						switch ( $btn_a ) {
+							case 'before_title':
+								add_action( 'woocommerce_shop_loop_item_title', [ $this, 'add_button' ], 9 );
+								break;
 							case 'after_title':
 								add_action( 'woocommerce_shop_loop_item_title', [ $this, 'add_button' ], 11 );
 								break;
@@ -642,6 +645,7 @@ if ( ! function_exists( 'woosc_init' ) ) {
 												<?php
 												$btn_a = apply_filters( 'woosc_button_position_archive', 'default' );
 												$pos_a = apply_filters( 'woosc_button_positions_archive', [
+													'before_title'       => esc_html__( 'Above title', 'woo-smart-compare' ),
 													'after_title'        => esc_html__( 'Under title', 'woo-smart-compare' ),
 													'after_rating'       => esc_html__( 'Under rating', 'woo-smart-compare' ),
 													'after_price'        => esc_html__( 'Under price', 'woo-smart-compare' ),

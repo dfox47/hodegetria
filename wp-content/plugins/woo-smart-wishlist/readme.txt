@@ -4,7 +4,7 @@ Donate link: https://wpclever.net
 Tags: woocommerce, woo, wpc, smart, wishlist, wish list
 Requires at least: 4.0
 Tested up to: 6.2
-Stable tag: 4.6.5
+Stable tag: 4.6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -102,6 +102,12 @@ Example:
 `echo do_shortcode('[woosw id="99"]');`
 
 == Changelog ==
+
+= 4.6.7 =
+* Added: "Above title" position
+
+= 4.6.6 =
+* Updated: Optimized the code
 
 = 4.6.5 =
 * Updated: Move wishlist menu on My Account page to before Logout
